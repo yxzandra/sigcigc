@@ -162,13 +162,17 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
-            @section('titulo')
-              Dashboard
-            @show
+          @section('titulo')
+              Menu Principal
+          @show
           </h1>
           <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li class="active">Dashboard</li>
+            <li class="active">
+              @section('miga')
+                Menu Principal
+              @show
+            </li>
           </ol>
         </section>
 
