@@ -8,8 +8,6 @@ class HomeController extends BaseController {
 		return View::make('master.layout');
 	}
 
-
-
 	public function showBackend()
 	{
 		if(Session::has('user')){
@@ -36,5 +34,13 @@ class HomeController extends BaseController {
 		return View::make('backend.vacaciones',array('usuarios' => Usuario::all()));
 		}
 			
-	}		
+	}	
+
+	public function showObjetivogestion()
+	{
+		if (Session::has('user')) {
+		return View::make('backend.objetivogestion',array('usuarios' => Usuario::all()));
+		}
+			
+	}			
 }

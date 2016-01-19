@@ -4,6 +4,11 @@
   Control de Vacaciones
 @stop
 
+@section('miga')
+  Vacaciones
+@stop
+
+
 @section('content')
 <form role="form">
   <div class="form-group">

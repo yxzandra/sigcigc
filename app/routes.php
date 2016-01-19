@@ -18,6 +18,8 @@ Route::get('/','HomeController@showBackend');
 
 Route::get('/vacaciones','HomeController@showVacaciones');
 
+Route::get('/objetivogestion','HomeController@showObjetivogestion');
+
 
 /* RUTA PARA LAS TABLAS*/
 
