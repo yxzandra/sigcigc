@@ -57,7 +57,7 @@
                   <li class="user-header">
                     <img src="dist/img/boxed-bg.png" class="img-circle" alt="User Image">
                     <p>
-                      Jessica 
+                      Jessica Ladilla
                       <small>Administrador</small>
                     </p>
                   </li>
