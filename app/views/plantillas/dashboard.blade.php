@@ -111,7 +111,7 @@
 
             <li><a href="{{URL::to('vacaciones')}}"><i class="glyphicon glyphicon-calendar"></i> <span>Vacaciones</span></a></li>
             
-            <li><a href="#"><i class="glyphicon glyphicon-file"></i> <span>Objetivo de Gestion</span></a></li>
+            <li><a href="{{URL::to('objetivogestion')}}"><i class="glyphicon glyphicon-file"></i> <span>Objetivo de Gestion</span></a></li>
             
             <li><a href="#"><i class="fa fa-dashboard"></i> <span>Control de Reservas</span></a></li>
 
